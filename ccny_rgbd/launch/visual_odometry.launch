@@ -43,7 +43,7 @@
 
     #### features: GFT ################################
 
-    <param name="feature/GFT/n_features"   value = "8192"/>
+    <param name="feature/GFT/n_features"   value = "4096"/>
     <param name="feature/GFT/min_distance" value = "2.0"/>
 
     #### features: SURF ###############################
@@ -62,9 +62,9 @@
 
     #### registration: ICP Prob Model #################
 
-    <param name="reg/ICPProbModel/max_iterations"            value="512"/>
-    <param name="reg/ICPProbModel/max_model_size"            value="10240"/>
-    <param name="reg/ICPProbModel/n_nearest_neighbors"       value="8"/>
+    <param name="reg/ICPProbModel/max_iterations"            value="32"/>
+    <param name="reg/ICPProbModel/max_model_size"            value="4096"/>
+    <param name="reg/ICPProbModel/n_nearest_neighbors"       value="4"/>
     <param name="reg/ICPProbModel/max_assoc_dist_mah"        value="5.0"/>
     <param name="reg/ICPProbModel/max_corresp_dist_eucl"     value="0.05"/>
     <param name="reg/ICPProbModel/publish_model_cloud"       value="false"/>
